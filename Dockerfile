@@ -4,7 +4,7 @@ LABEL "maintainer"="sk12k@simplilearn.net"
 
 RUN apt-get update
 
-RUN apt-get install -y nginx tree
+RUN apt-get install -y nginx
 
 RUN useradd sk12k
 
